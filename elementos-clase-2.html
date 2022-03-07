@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- lista desordenada -->
+    <ul>
+        <li>Paris</li>
+        <li>Berlin</li>
+        <li>Leche</li>
+        <li>Arroz</li>
+        <li>Cereal</li>
+    </ul>
+    <!-- lista ordenada -->
+    <ol>
+        <li>Ingresar a la plataforma</li>
+        <li>Colocar los datos de inicia de secion como usuario y clave</li>
+        <li>hacer click en ingresar</li>
+    </ol>
+    <!-- anidar listas -->
+    <ul>
+        <li>
+            computadoras portatil
+            <ul>
+                <li>Procesador I4</li>
+                <li>Procesador I5</li>
+            </ul>
+        </li>
+
+        <li>
+            computadores de escritorio
+            <ul>
+                <li>Procesador Pentium</li>
+                <li>Procesador celeron</li>
+            </ul>
+        </li>
+    </ul>
+    <!-- lista de definicion -->
+    <!-- dl -->
+    <dl>
+        <!-- dt -->
+        <!-- declarar o termino a definir -->
+        <dt>HTML</dt>
+        <!-- dd -->
+        <!-- descripcion o explicacion del termino o apartado a definir -->
+        <dd>es un lenguaje para darle estilo a mi web</dd>
+    </dl>
+    
+    <!-- tablas -->
+
+    <!-- Table -->
+    <table border="1" cellpadding="10" cellspacing="20" >
+        <!-- filas -->
+        <!-- tr table  -->
+        <tr>
+            <!-- td o th table data o table head -->
+            <th>N°</th>
+            <th>Curso</th>
+            <th>Cantidad</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Desarrollo Web</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>JavaScript</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>React</td>
+            <td>150</td>
+        </tr>
+    </table>
+    <!-- formulario -->
+    <form action="">
+
+        <fieldset>
+            <legend>Datos Personales</legend>
+
+            <div>
+                <label for="fullname" name="fullname">Nombre:</label><input type="text" id="fullname" placeholder="Tu nombre">
+            </div>
+            <div>
+                <label for="edad">Edad:</label><input type="number" id="edad" placeholder="Tu Edad">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos de Ususario</legend>
+
+            <div>
+                <label for="correo">Correo:</label><input type="email" id="correo">
+            </div>
+            <div>
+                <label for="">Email:</label>
+                <input type="email">
+            </div>
+            <div>
+                <label for="">Password:</label>
+                <input type="password">
+            </div>
+            <div>
+                <label for="">Cargar Archivo:</label>
+                <input type="file">
+            </div>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Otros datos</legend>
+            <div>
+                <label for="">Comentario:</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="hombre">Hombre</label>
+                <input type="radio" name="genero" id="hombre">
+            </div>
+            <div>
+                <label for="mujer">Hombre</label>
+                <input type="radio" name="genero" id="mujer">
+            </div>
+            <div>
+                <label for="aceptar">Terminos y Condiciones</label>
+                <input type="checkbox" name="terminosycondiciones" id="aceptar">
+            </div>
+            <div>
+                <label for="talle">Talle:</label>
+                <select name="talle" id="talle">
+                        <option value="S">Talla S</option>
+                        <option value="M">Talla M</option>
+                        <option value="L">Talla L</option>
+                </select>
+        </fieldset>
+       
+        
+        </div>
+        <div>
+            <!-- input type submit value enviar -->
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </div>
+        
+    </form>
+
+
+    <!-- enlaces -->
+
+    <!--  enlaces relativo -->
+    <a href="">Enlace</a>
+    <a href="listas.html">Pagina lista</a>
+
+    <!-- enlace absoluto -->
+
+    <a href="https://plataforma.coderhouse.com/cursos/20640/desarrollo-web-online">Coder</a>
+
+    <!-- multimedia -->
+    <!-- imagenes -->
+    <img src="https://100playas.com/wp-content/uploads/2012/09/Playa-Es-Caragol-g1.jpeg" alt="imagen playa">
+
+    <!-- video necesito el src y controls-->
+    <video src="ruta de video" controls></video>
+    <audio src="ruta de audio" controls></audio>
+
+    <iframe src="ruta de ese contenido" frameborder="0"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kPkbChyUQK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
